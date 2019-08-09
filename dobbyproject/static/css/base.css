@@ -1,11 +1,12 @@
 @import "home.css";
+@import "signUp.css";
 
 html,
 body {
     max-width: 1251px;
     max-height: 938px;
     margin: auto;
-    /* overflow: hidden; */
+    background-color: #f6f6f8;
 }
 
 .nav-header {
