@@ -1,9 +1,15 @@
+main {
+    height: 938px;
+    overflow: hidden;
+}
+
 .main-left {
     background: url("../img/main_left_light.jpg") no-repeat top right;
 }
 
 .main-left:hover {
     cursor: pointer;
+    background: url("../img/main_left_handsup.jpg") no-repeat top right;
 }
 
 .main-right {
@@ -12,4 +18,5 @@
 
 .main-right:hover {
     cursor: pointer;
+    background: url("../img/main_right_handsup.jpg") no-repeat top left;
 }

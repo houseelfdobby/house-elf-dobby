@@ -6,13 +6,11 @@
 {% block content %}
 
 <main class="row">
-    <div class="col-6 main-left">
-        <img class="left-img" src="{% static 'img/main_left_light.jpg' %}" alt="left">
-    </div>
-    <div class="col-6 main-right">
-    </div>
+    <div class="col-6 main-left" onclick="location.href='{%url 'signup'%}'"></div>
+    <div class="col-6 main-right" onclick="location.href='{%url 'error'%}'"></div>
 </main>
 
 
-<script src="{% static 'js/home.js' %}"></script>
+<script src=" {% static 'js/home.js' %}">
+</script>
 {% endblock %}

@@ -118,6 +118,13 @@
   .wat-bt {
     grid-row: 11/12;
     grid-column: 17/19;
+    /*background: url("{% static 'img/user_room.jpg' %}");*/
+  }
+
+  .contents-grid {
+    display: grid;
+    grid-template-columns: repeat(13, 73px);
+    grid-template-rows: repeat(10, 10%);
   }
 </style>
 
@@ -184,5 +191,8 @@
     </div>
 
 
+    <div class="contents-grid">
+      월세 400,000 현재 보증금 5,000,000
+    </div>
   </div>
   {%endblock%}

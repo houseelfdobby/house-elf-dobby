@@ -13,3 +13,5 @@ def signup(request):
 def userroom(request):
     return render(request, 'userroom.html')
 
+def error(request):
+    return render(request, 'error.html')
