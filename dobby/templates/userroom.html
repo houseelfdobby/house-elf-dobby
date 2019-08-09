@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>내 방 관리</title>
+  {% load staticfiles %}
+  <style>
+    body {
+      height: 100%;
+    }
+
+    .User-room {
+      font-family: a스마일B;
+      /*background-color: rgb(217, 217, 217);*/
+      width: 100%;
+      height: 100%;
+    }
+
+    .header {
+      display: flex;
+      padding: auto;
+      align-items: center;
+      height: 81px;
+      background-color: rgb(4, 110, 184);
+      color: white;
+    }
+
+    .contents {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff url("{% static 'img/user_room.jpg' %}") no-repeat top right;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="User-room">
+    <div class="header">
+      <img src="{% static 'img/logo.png' %}" width="100px" height="100px">
+
+    </div>
+    <div class="contents">
+
+    </div>
+</body>
+
+</html>
