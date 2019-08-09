@@ -90,7 +90,7 @@
     width: 120px;
     height: 120px;
     padding: 20px 20px 20px 20px;
-    border-radius: 50%;
+
   }
 
   #user_name {
@@ -102,14 +102,18 @@
   #user_room {
     padding: 30px 0px 0px 20px;
   }
+
+  #user_img {
+    border-radius: 50%;
+  }
 </style>
 
 <div class="board">
   <div class="dodo">
-    <img src="{% static 'img/dodo.jpg' %}">
+    <img id="user_img" src="{% static 'img/dodo.jpg' %}">
   </div>
   <div class="myroom">
-    <button type="button" class="btn btn-warning">내 방 관리</button>
+    <button type="button" onclick=location.href="{% url 'userroom' %}" class=" btn btn-warning">내 방 관리</button>
   </div>
   <div class="the_writes">
     <a href="">내가 쓴 글</a>
