@@ -1,0 +1,10 @@
+main {
+}
+
+.main-left {
+    background: url("../img/main_left_light.jpg") no-repeat top right;
+}
+
+.main-right {
+    background: url("../img/main_right_light.jpg") no-repeat top left;
+}
