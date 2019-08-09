@@ -24,8 +24,12 @@ urlpatterns = [
     path('', dobby.views.home, name='home'),
     path('signup/', dobby.views.signup, name='signup'),
     path('userroom/', dobby.views.userroom, name='userroom'),
+
+    path('board/', board.views.board_home, name='board_home'),
+
     path('error/', dobby.views.error, name='error'),
     path('board', board.views.board_home, name='board_home'),
+
     path('board/<int:board_id>/', board.views.detail, name='detail'),
     path('board/new/', board.views.new, name='new'),
     path('board/create/', board.views.create, name='create'),
