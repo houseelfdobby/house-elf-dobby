@@ -1,0 +1,93 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>dobby_board!</title>
+  </head>
+  <body>
+    <div id="sidebar">
+          <div class="user_profile">
+            <div><img id="user_photo" src="{% static 'contents.jpg' %}"  ></div>
+            <div id="user_name">김보연</div>
+            <div id="user_room"><button>내 방관리</button></div>
+          </div>
+          
+          <div class="Mypost">
+            <ul>
+              <li class="post-item"><a href="" class="nav-link">내가 쓴 글</a></li>
+              <li class="post-item"><a href="" class="nav-link">댓글 단 글</a></li>
+              <li class="post-item"><a href="" class="nav-link">스크랩</a></li>
+              <li class="post-item"><a href="" class="nav-link">HOT 게시판</a></li>
+              <li class="post-item"><a href="" class="nav-link">BEST 게시판</a></li>
+            </ul>
+          </div>
+          <div class="">
+            <ul>
+                <li class="post-item"><a href="" class="nav-link">자유게시판</a></li>
+                <li class="post-item"><a href="" class="nav-link">빈방있어요</a></li>
+                <li class="post-item"><a href="" class="nav-link">맛집게시판</a></li>
+                <li class="post-item"><a href="" class="nav-link">우리동네 프리마켓</a></li>
+            </ul>
+          </div>
+          <div>
+            <input type="text" placeholder="검색어 입력">
+            <button>검색</button>
+          </div>
+          <div class="">
+              <ul>
+                  <li class="post-item"><a href="" class="nav-link">자유게시판</a></li>
+                  <li class="post-item"><a href="" class="nav-link">빈방있어요</a></li>
+                  <li class="post-item"><a href="" class="nav-link">맛집게시판</a></li>
+                  <li class="post-item"><a href="" class="nav-link">우리동네 프리마켓</a></li>
+              </ul>
+            </div>
+          
+    </div>
+      
+        <div id="header"> header </div>
+        <div class="content">
+            <h1>{{ board.title }}</h1>
+            <p>{{ board.pub_date }}</p>
+            <p>{{ board.body }}</p>
+            <a href="{% url 'home' %}">돌아가기</a>
+        </div>
+    
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+
+  <style>
+        #header {height:40px;background:#ff6600;}
+        #sidebar {float:left;height:1000px;width:250px;background:#09ff00;}
+        #content {height:500px;background:white;}
+        #footer {height:80px;background:#0099ff;}
+        .user_profile {height: 120px; padding: 0px 0px 40px 0px;}
+        #user_photo {float:left; width: 120px;  height: 120px; padding: 20px 20px 20px 20px;  border-radius: 50%; }
+        #user_name {float:left; width: 100px; padding:30px 0px 1 0px 20px;}
+        #user_room {padding: 30px 0px 0px 20px;}
+     
+</style>
+
+<script>
+
+   
+
+
+        /*$("#slider").mouseover(function(){$("html").toggleclass("open");});
+        $("#slider").mouseleave(function(){$("html").toggleclass("close");});*/
+      
+
+</script>
+
+</html>
