@@ -23,5 +23,5 @@ urlpatterns = [
     path('', dobby.views.home, name='home'),
     path('signup/', dobby.views.signup, name='signup'),
     path('userroom/', dobby.views.userroom, name='userroom'),
-
+    path('error/', dobby.views.error, name='error'),
 ]
