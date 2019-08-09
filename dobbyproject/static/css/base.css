@@ -8,3 +8,10 @@
     height: 50px;
     margin-left: 340px;
 }
+
+.submitBtn {
+    background-color: #eda2c4;
+}
+.submitBtn:hover {
+    background-color: #fd79a8;
+}
