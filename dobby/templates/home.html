@@ -1,10 +1,18 @@
 {% extends 'base.html'%}
+{% load static %}
 
 {% block title %}홈{%endblock%}
 
 {% block content %}
-<div class="container">
-    <h1>home</h1>
-</div>
 
+<main class="row">
+    <div class="col-6 main-left">
+        <img class="left-img" src="{% static 'img/main_left_light.jpg' %}" alt="left">
+    </div>
+    <div class="col-6 main-right">
+    </div>
+</main>
+
+
+<script src="{% static 'js/home.js' %}"></script>
 {% endblock %}

@@ -1,0 +1,15 @@
+.main-left {
+    background: url("../img/main_left_light.jpg") no-repeat top right;
+}
+
+.main-left:hover {
+    cursor: pointer;
+}
+
+.main-right {
+    background: url("../img/main_right_light.jpg") no-repeat top left;
+}
+
+.main-right:hover {
+    cursor: pointer;
+}
