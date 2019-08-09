@@ -1,5 +1,6 @@
 main {
-    height: 1038px;
+    height: 938px;
+    overflow: hidden;
 }
 
 .main-left {
