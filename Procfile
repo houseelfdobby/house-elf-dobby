@@ -1,0 +1,1 @@
+web: gunicorn dobbyproject.wsgi --log-file -
