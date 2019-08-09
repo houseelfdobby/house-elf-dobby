@@ -16,6 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 import dobby.views
+import board.views
 
 
 urlpatterns = [
@@ -24,4 +25,8 @@ urlpatterns = [
     path('signup/', dobby.views.signup, name='signup'),
     path('userroom/', dobby.views.userroom, name='userroom'),
     path('error/', dobby.views.error, name='error'),
+    path('board', board.views.board_home, name='board_home'),
+    path('board/<int:board_id>/', board.views.detail, name='detail'),
+    path('board/new/', board.views.new, name='new'),
+    path('board/create/', board.views.create, name='create'),
 ]
