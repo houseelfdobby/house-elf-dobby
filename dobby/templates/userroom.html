@@ -18,21 +18,171 @@
     height: 957px;
     background: url("{% static 'img/user_room.jpg' %}");
     background-size: 100% 100%;
-    /*background: url("{% static 'img/user_room.jpg' %}");*/
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20, 5%);
   }
 
-  .contents-grid {
-    display: grid;
-    grid-template-columns: repeat(13, 73px);
-    grid-template-rows: repeat(10, 10%);
+  .total-monthly {
+    grid-row: 4/5;
+    grid-column: 7/13;
+  }
+
+  .monthly-day {
+    grid-row: 6/7;
+    grid-column: 8/13;
+  }
+
+  .gas-day {
+    grid-row: 7/8;
+    grid-column: 8/13;
+  }
+
+  .ele-day {
+    grid-row: 8/9;
+    grid-column: 8/13;
+  }
+
+  .wat-day {
+    grid-row: 9/10;
+    grid-column: 8/13;
+  }
+
+  .receipt-title {
+    grid-row: 6/7;
+    grid-column: 15/18;
+    font-size: 14px;
+  }
+
+  .receipt-day {
+    grid-row: 7/8;
+    grid-column: 17/19;
+  }
+
+  .monthly {
+    grid-row: 8/9;
+    grid-column: 14/15;
+  }
+
+  .gas {
+    grid-row: 9/10;
+    grid-column: 14/15;
+  }
+
+  .ele {
+    grid-row: 10/11;
+    grid-column: 14/15;
+  }
+
+  .wat {
+    grid-row: 11/12;
+    grid-column: 14/15;
+  }
+
+  .monthly-price {
+    grid-row: 8/9;
+    grid-column: 15/17;
+  }
+
+  .gas-price {
+    grid-row: 9/10;
+    grid-column: 15/17;
+  }
+
+  .ele-price {
+    grid-row: 10/11;
+    grid-column: 15/17;
+  }
+
+  .wat-price {
+    grid-row: 11/12;
+    grid-column: 15/17;
+  }
+
+
+  .monthly-bt {
+    grid-row: 8/9;
+    grid-column: 17/19;
+  }
+
+  .gas-bt {
+    grid-row: 9/10;
+    grid-column: 17/19;
+  }
+
+  .ele-bt {
+    grid-row: 10/11;
+    grid-column: 17/19;
+  }
+
+  .wat-bt {
+    grid-row: 11/12;
+    grid-column: 17/19;
   }
 </style>
 
 <div class="User-room">
 
   <div class="contents">
-    <div class="contents-grid">
-      월세 400,000 현재 보증금 5,000,000
+    <div class="total-monthly">
+      월세 &#8361;400,000 현재 보증금 &#8361;5,000,000
     </div>
+    <div class="monthly-day">
+      월세 납부일 : 매월 15일
+    </div>
+    <div class="gas-day">
+      가스비 납부일 : 매월 10일
+    </div>
+    <div class="ele-day">
+      전기세 납부일 : 매월 10일
+    </div>
+    <div class="wat-day">
+      수도세 납부일 : 매월 10일
+    </div>
+    <div class="receipt-title">
+      센텀우리 406호 영수증
+    </div>
+    <div class="receipt-day">
+      2019.08.15
+    </div>
+    <div class="monthly">
+      월 세
+    </div>
+    <div class="gas">
+      가스비
+    </div>
+    <div class="ele">
+      전기세
+    </div>
+    <div class="wat">
+      수도세
+    </div>
+    <div class="monthly-price">
+      &#8361;400,000
+    </div>
+    <div class="gas-price">
+      &#8361;8,000
+    </div>
+    <div class="ele-price">
+      &#8361;30,000
+    </div>
+    <div class="wat-price">
+      &#8361;25,000
+    </div>
+
+    <div class="monthly-bt">
+      <button type="button" class="btn btn-outline-primary">납부하기</button>
+    </div>
+    <div class="gas-bt">
+      <button type="button" class="btn btn-outline-primary">납부하기</button>
+    </div>
+    <div class="ele-bt">
+      <button type="button" class="btn btn-outline-primary">납부하기</button>
+    </div>
+    <div class="wat-bt">
+      <button type="button" class="btn btn-outline-primary">납부하기</button>
+    </div>
+
+
   </div>
   {%endblock%}
