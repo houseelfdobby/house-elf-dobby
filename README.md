@@ -12,8 +12,8 @@
 
 <img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/5.png" alt="main" >
 
-<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/2.jpg" alt="myRoom" width=500>
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/2.jpg" alt="myRoom">
 
-<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/1.jpg" alt="board" width=500>
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/1.jpg" alt="board">
 
-<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/3.jpg" alt="chat" width=500>
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/3.jpg" alt="chat" >
