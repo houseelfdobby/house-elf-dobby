@@ -2,7 +2,7 @@
 
 ## 19년도 해커톤 버전
 
-<a href="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/4.gif"></a>
+![logo](https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/4.gif)
 
 ## 배포 링크
 
@@ -10,4 +10,10 @@
 
 ## 스크린샷
 
-<a href=""></a>
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/5.png" alt="main" >
+
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/2.jpg" alt="myRoom" width=450>
+
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/1.jpg" alt="board" width=450>
+
+<img src="https://raw.githubusercontent.com/houseelfdobby/house-elf-dobby/master/screenshots/3.jpg" alt="chat" width=450>
